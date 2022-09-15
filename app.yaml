@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: nodejs
-          image: devopstrainingschool/bulletin-nodejs
+          image: devopstrainingschool/bulletin-nodejs:15
           ports:
             - containerPort: 8080 
           imagePullPolicy: Always
